@@ -34,7 +34,7 @@
 /* Begin PBXFileReference section */
 		70554E131A0ACDA70070C729 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
 		70554E141A0ACDA70070C729 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
-		70D6D7C01A092E370057B20A /* StanfordMatchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordMatchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D6D7C01A092E370057B20A /* Match-A-Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Match-A-Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D6D7C41A092E370057B20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70D6D7C51A092E370057B20A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70D6D7C71A092E370057B20A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		70D6D7CE1A092E370057B20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70D6D7D01A092E370057B20A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		70D6D7D31A092E370057B20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		70D6D7D91A092E380057B20A /* StanfordMatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StanfordMatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D6D7D91A092E380057B20A /* Match-A-CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Match-A-CardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D6D7DE1A092E380057B20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70D6D7DF1A092E380057B20A /* StanfordMatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StanfordMatchismoTests.m; sourceTree = "<group>"; };
 		70D6D7E91A092E8E0057B20A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 		70D6D7B71A092E370057B20A = {
 			isa = PBXGroup;
 			children = (
-				70D6D7C21A092E370057B20A /* StanfordMatchismo */,
-				70D6D7DC1A092E380057B20A /* StanfordMatchismoTests */,
+				70D6D7C21A092E370057B20A /* Root */,
+				70D6D7DC1A092E380057B20A /* RootTests */,
 				70D6D7C11A092E370057B20A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,13 +87,13 @@
 		70D6D7C11A092E370057B20A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70D6D7C01A092E370057B20A /* StanfordMatchismo.app */,
-				70D6D7D91A092E380057B20A /* StanfordMatchismoTests.xctest */,
+				70D6D7C01A092E370057B20A /* Match-A-Card.app */,
+				70D6D7D91A092E380057B20A /* Match-A-CardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70D6D7C21A092E370057B20A /* StanfordMatchismo */ = {
+		70D6D7C21A092E370057B20A /* Root */ = {
 			isa = PBXGroup;
 			children = (
 				70D6D7CA1A092E370057B20A /* ViewController.h */,
@@ -104,6 +104,7 @@
 				70D6D7D21A092E370057B20A /* LaunchScreen.xib */,
 				70D6D7C31A092E370057B20A /* Supporting Files */,
 			);
+			name = Root;
 			path = StanfordMatchismo;
 			sourceTree = "<group>";
 		};
@@ -118,12 +119,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		70D6D7DC1A092E380057B20A /* StanfordMatchismoTests */ = {
+		70D6D7DC1A092E380057B20A /* RootTests */ = {
 			isa = PBXGroup;
 			children = (
 				70D6D7DF1A092E380057B20A /* StanfordMatchismoTests.m */,
 				70D6D7DD1A092E380057B20A /* Supporting Files */,
 			);
+			name = RootTests;
 			path = StanfordMatchismoTests;
 			sourceTree = "<group>";
 		};
@@ -156,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70D6D7BF1A092E370057B20A /* StanfordMatchismo */ = {
+		70D6D7BF1A092E370057B20A /* Match-A-Card */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70D6D7E31A092E380057B20A /* Build configuration list for PBXNativeTarget "StanfordMatchismo" */;
+			buildConfigurationList = 70D6D7E31A092E380057B20A /* Build configuration list for PBXNativeTarget "Match-A-Card" */;
 			buildPhases = (
 				70D6D7BC1A092E370057B20A /* Sources */,
 				70D6D7BD1A092E370057B20A /* Frameworks */,
@@ -168,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = StanfordMatchismo;
+			name = "Match-A-Card";
 			productName = StanfordMatchismo;
-			productReference = 70D6D7C01A092E370057B20A /* StanfordMatchismo.app */;
+			productReference = 70D6D7C01A092E370057B20A /* Match-A-Card.app */;
 			productType = "com.apple.product-type.application";
 		};
-		70D6D7D81A092E380057B20A /* StanfordMatchismoTests */ = {
+		70D6D7D81A092E380057B20A /* Match-A-CardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70D6D7E61A092E380057B20A /* Build configuration list for PBXNativeTarget "StanfordMatchismoTests" */;
+			buildConfigurationList = 70D6D7E61A092E380057B20A /* Build configuration list for PBXNativeTarget "Match-A-CardTests" */;
 			buildPhases = (
 				70D6D7D51A092E380057B20A /* Sources */,
 				70D6D7D61A092E380057B20A /* Frameworks */,
@@ -186,9 +188,9 @@
 			dependencies = (
 				70D6D7DB1A092E380057B20A /* PBXTargetDependency */,
 			);
-			name = StanfordMatchismoTests;
+			name = "Match-A-CardTests";
 			productName = StanfordMatchismoTests;
-			productReference = 70D6D7D91A092E380057B20A /* StanfordMatchismoTests.xctest */;
+			productReference = 70D6D7D91A092E380057B20A /* Match-A-CardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 70D6D7BB1A092E370057B20A /* Build configuration list for PBXProject "StanfordMatchismo" */;
+			buildConfigurationList = 70D6D7BB1A092E370057B20A /* Build configuration list for PBXProject "Match-A-Card" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70D6D7BF1A092E370057B20A /* StanfordMatchismo */,
-				70D6D7D81A092E380057B20A /* StanfordMatchismoTests */,
+				70D6D7BF1A092E370057B20A /* Match-A-Card */,
+				70D6D7D81A092E380057B20A /* Match-A-CardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,7 +279,7 @@
 /* Begin PBXTargetDependency section */
 		70D6D7DB1A092E380057B20A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 70D6D7BF1A092E370057B20A /* StanfordMatchismo */;
+			target = 70D6D7BF1A092E370057B20A /* Match-A-Card */;
 			targetProxy = 70D6D7DA1A092E380057B20A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -384,7 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StanfordMatchismo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Match-A-Card";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -395,7 +397,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StanfordMatchismo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Match-A-Card";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -414,8 +416,8 @@
 				);
 				INFOPLIST_FILE = StanfordMatchismoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StanfordMatchismo.app/StanfordMatchismo";
+				PRODUCT_NAME = "Match-A-CardTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Match-A-Card.app/Match-A-Card";
 			};
 			name = Debug;
 		};
@@ -429,15 +431,15 @@
 				);
 				INFOPLIST_FILE = StanfordMatchismoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StanfordMatchismo.app/StanfordMatchismo";
+				PRODUCT_NAME = "Match-A-CardTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Match-A-Card.app/Match-A-Card";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70D6D7BB1A092E370057B20A /* Build configuration list for PBXProject "StanfordMatchismo" */ = {
+		70D6D7BB1A092E370057B20A /* Build configuration list for PBXProject "Match-A-Card" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70D6D7E11A092E380057B20A /* Debug */,
@@ -446,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70D6D7E31A092E380057B20A /* Build configuration list for PBXNativeTarget "StanfordMatchismo" */ = {
+		70D6D7E31A092E380057B20A /* Build configuration list for PBXNativeTarget "Match-A-Card" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70D6D7E41A092E380057B20A /* Debug */,
@@ -455,7 +457,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70D6D7E61A092E380057B20A /* Build configuration list for PBXNativeTarget "StanfordMatchismoTests" */ = {
+		70D6D7E61A092E380057B20A /* Build configuration list for PBXNativeTarget "Match-A-CardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70D6D7E71A092E380057B20A /* Debug */,
