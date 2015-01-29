@@ -24,9 +24,18 @@
 
 @implementation ViewController
 
+-(void) viewDidLoad
+{
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
 -(CardMatchingGame *) game {
     if (!_game) [self startNewGame];
     return _game;
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
 -(Deck *) createDeck {

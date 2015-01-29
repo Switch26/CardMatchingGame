@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70554E151A0ACDA70070C729 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 70554E141A0ACDA70070C729 /* CardMatchingGame.m */; };
+		70B7A8291A7AA42A005075CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70B7A8281A7AA42A005075CF /* Default-568h@2x.png */; };
 		70D6D7C61A092E370057B20A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D6D7C51A092E370057B20A /* main.m */; };
 		70D6D7C91A092E370057B20A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D6D7C81A092E370057B20A /* AppDelegate.m */; };
 		70D6D7CC1A092E370057B20A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D6D7CB1A092E370057B20A /* ViewController.m */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		70554E131A0ACDA70070C729 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
 		70554E141A0ACDA70070C729 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
+		70B7A8281A7AA42A005075CF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		70D6D7C01A092E370057B20A /* Match-A-Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Match-A-Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D6D7C41A092E370057B20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70D6D7C51A092E370057B20A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		70D6D7B71A092E370057B20A = {
 			isa = PBXGroup;
 			children = (
+				70B7A8281A7AA42A005075CF /* Default-568h@2x.png */,
 				70D6D7C21A092E370057B20A /* Root */,
 				70D6D7DC1A092E380057B20A /* RootTests */,
 				70D6D7C11A092E370057B20A /* Products */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70D6D7CF1A092E370057B20A /* Main.storyboard in Resources */,
+				70B7A8291A7AA42A005075CF /* Default-568h@2x.png in Resources */,
 				70D6D7D41A092E370057B20A /* LaunchScreen.xib in Resources */,
 				70D6D7D11A092E370057B20A /* Images.xcassets in Resources */,
 			);
