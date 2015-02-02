@@ -104,8 +104,7 @@
 				70D6D7D21A092E370057B20A /* LaunchScreen.xib */,
 				70D6D7C31A092E370057B20A /* Supporting Files */,
 			);
-			name = Root;
-			path = StanfordMatchismo;
+			path = Root;
 			sourceTree = "<group>";
 		};
 		70D6D7C31A092E370057B20A /* Supporting Files */ = {
@@ -125,8 +124,7 @@
 				70D6D7DF1A092E380057B20A /* StanfordMatchismoTests.m */,
 				70D6D7DD1A092E380057B20A /* Supporting Files */,
 			);
-			name = RootTests;
-			path = StanfordMatchismoTests;
+			path = RootTests;
 			sourceTree = "<group>";
 		};
 		70D6D7DD1A092E380057B20A /* Supporting Files */ = {
@@ -384,7 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = StanfordMatchismo/Info.plist;
+				INFOPLIST_FILE = Root/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = CardMatchingGame;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -395,7 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = StanfordMatchismo/Info.plist;
+				INFOPLIST_FILE = Root/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = CardMatchingGame;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,7 +412,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = StanfordMatchismoTests/Info.plist;
+				INFOPLIST_FILE = RootTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = CardMatchingGameTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardMatchingGame.app/CardMatchingGame";
@@ -429,7 +427,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = StanfordMatchismoTests/Info.plist;
+				INFOPLIST_FILE = RootTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = CardMatchingGameTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardMatchingGame.app/CardMatchingGame";
