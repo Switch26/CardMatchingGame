@@ -113,12 +113,6 @@
       "idiom" : "ipad",
       "filename" : "76pt_@2x.png",
       "scale" : "2x"
-    },
-    {
-      "size" : "120x120",
-      "idiom" : "car",
-      "filename" : "120pt_@1x.png",
-      "scale" : "1x"
     }
   ],
   "info" : {

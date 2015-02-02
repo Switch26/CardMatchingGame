@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70554E151A0ACDA70070C729 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 70554E141A0ACDA70070C729 /* CardMatchingGame.m */; };
+		70BAF8031A8015D600FB77A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D6D7D01A092E370057B20A /* Images.xcassets */; };
 		70D6D7C61A092E370057B20A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D6D7C51A092E370057B20A /* main.m */; };
 		70D6D7C91A092E370057B20A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D6D7C81A092E370057B20A /* AppDelegate.m */; };
 		70D6D7CC1A092E370057B20A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D6D7CB1A092E370057B20A /* ViewController.m */; };
@@ -202,6 +203,7 @@
 				TargetAttributes = {
 					70D6D7BF1A092E370057B20A = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 5W74E9U5N8;
 					};
 					70D6D7D81A092E380057B20A = {
 						CreatedOnToolsVersion = 6.1;
@@ -243,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70BAF8031A8015D600FB77A3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +322,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -360,7 +364,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -382,9 +387,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Root/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = CardMatchingGame;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -393,9 +401,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Root/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = CardMatchingGame;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
